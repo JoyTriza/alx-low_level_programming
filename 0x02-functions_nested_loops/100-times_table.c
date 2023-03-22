@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * print_time_table - n times table, starting with 0.
- * starting with 0
+ *print_time_table - n times table, starting with 0.
+ *starting with 0
  *@n: The value of the times table to be printed
  */
 
 void print_times_table(int n)
+
 {
 	int num, mult, prod;
 
