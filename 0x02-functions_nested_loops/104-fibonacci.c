@@ -6,6 +6,7 @@
  */
 
 int main(void)
+
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -26,14 +27,15 @@ int main(void)
 	for (count = 93; count < 99; count++)
 	{
 	half1 = fib1_half1 + fib2_half1;
-	half2 = fib1_half2 + fib2_half2 > 9999999999)
+	half2 = fib1_half2 + fib2_half2;
+	if (fib1_half2 + fib2_half2 > 9999999999)
 	{
 	half1 += 1;
 	hlalf2 %= 10000000000;
 	}
 	printf("%lu%lu", half1, half2);
 	if (count != 98)
-	printf("' ");
+	printf(", ");
 	fib1_half1 = fib2_half1;
 	fib1_half2 = fib2_half2;
 	fib2_half1 = half1;
