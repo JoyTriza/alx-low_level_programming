@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+/**
+ *
+ * main - prints the sum of args positive numbers
+ * argc: arg count
+ * argv: arg vector
+ * Return: Always zero
+ */
 
 int main(int argc, char *argv[])
 {
@@ -27,7 +34,7 @@ int main(int argc, char *argv[])
 			sum += atoi(e);
 			e++;
 		}
-		printf("%dd\n", sum);
+		printf("%d\n", sum);
 	}
 	else
 	{
